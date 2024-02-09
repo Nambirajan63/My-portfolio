@@ -324,7 +324,7 @@ body {
     }
 
     .container {
-        width: 350px;
+        width: 280px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
