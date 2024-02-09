@@ -31,7 +31,7 @@ function sendMsg() {
         else {
             alert("Please fill the form then click the send message button")
         }
-    }, 1000);
+    }, 500);
 
 };
 
