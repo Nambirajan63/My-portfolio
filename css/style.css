@@ -387,6 +387,7 @@ body {
     /* About Page */
 
     .about-container {
+        width: 350px;
         height: 900px !important;
     }
     .about {
@@ -416,7 +417,7 @@ body {
     /* Contact Page */
 
     .contact-container {
-        margin-top: 1rem;
+        margin-top: 5rem;
     }
 
     form {
