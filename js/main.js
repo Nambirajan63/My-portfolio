@@ -27,6 +27,7 @@ function sendMsg() {
     setTimeout( function () {
         if (fullName.length > 0 && mNumber.length >= 10 && email.length > 10 && eSubject.length > 0 && message.length > 0 ) {
             window.open('https://wa.me/911234567890?text=' + message, '_blank');
+            window.location.reload();
         }
         else {
             alert("Please fill the form then click the send message button")
