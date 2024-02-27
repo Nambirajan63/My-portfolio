@@ -282,8 +282,8 @@ body {
 
 @media only screen and (max-width: 1055px) {
     
-    .about {
-        padding-bottom: 50px !important;
+     .about-container {
+        margin-bottom: 100px !important;
     }
 
     .about-img {
