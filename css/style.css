@@ -420,11 +420,12 @@ body {
         margin-left: 150px;
     }
     .about-content {
-        margin-left: 70px;
+        margin-left: 50px;
         font-size: 14px;
     }
     .about-content p {
-        width: 450px !important;
+        width: 430px !important;
+        margin-left: 20px;
     }
     .about-img img {
         height: 300px !important;
