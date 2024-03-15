@@ -58,6 +58,15 @@
     </div>
 
     <script src="js/main1.js"></script>
+    <script>
+        const formEl = document.forms.sendmessage;
+
+        formEl.addEventListener('submit', function() {
+             setTimeout(function(){
+                  window.location.reload();
+             },500);
+         })
+    </script>
     
 </body>
 </html>
