@@ -12,30 +12,37 @@ document.addEventListener('keydown',function(event) {
 });
 
 
-
 // Send Message 
 
-function sendMsg() {
-    const fullName = document.getElementById('f-name').value;
-    const mNumber = document.getElementById('m-num').value;
-    const email = document.getElementById('e-address').value;
-    const eSubject = document.getElementById('e-sub').value;
-    const message = document.getElementById('message').value;
+// function sendMsg() {
+//     const fullName = document.getElementById('f-name').value;
+//     const mNumber = document.getElementById('m-num').value;
+//     const email = document.getElementById('e-address').value;
+//     const eSubject = document.getElementById('e-sub').value;
+//     const message = document.getElementById('message').value;
 
-    // Use callback function 
+//     // Use callback function 
 
-    setTimeout( function () {
-        if (fullName.length > 0 && mNumber.length >= 10 && email.length > 10 && eSubject.length > 0 && message.length > 0 ) {
-            window.open('https://wa.me/911234567890?text=' + message, '_blank');
-            window.location.reload();
-        }
-        else {
-            alert("Please fill the form then click the send message button")
-        }
-    }, 500);
+//     setTimeout( function () {
+//         if (fullName.length > 0 && mNumber.length >= 10 && email.length > 10 && eSubject.length > 0 && message.length > 0 ) {
+//             window.open('https://wa.me/911234567890?text=' + message, '_blank');
+//             window.location.reload();
+//         }
+//         else {
+//             alert("Please fill the form then click the send message button")
+//         }
+//     }, 500);
 
-};
+// };
 
+
+const formEl = document.forms.sendmessage;
+
+formEl.addEventListener('submit', function() {
+    setTimeout(function(){
+       window.location.reload();
+    },500);
+})
 
 
 
