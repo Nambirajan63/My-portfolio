@@ -36,16 +36,6 @@ document.addEventListener('keydown',function(event) {
 // };
 
 
-const formEl = document.forms.sendmessage;
-
-formEl.addEventListener('submit', function() {
-    setTimeout(function(){
-       window.location.reload();
-    },500);
-})
-
-
-
 // Responsive navbar
 
 const btn = document.getElementsByClassName('menu')[0];
