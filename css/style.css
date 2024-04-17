@@ -401,7 +401,6 @@ body {
     /* Nav-Bar */
 
     .nav-bar {
-        padding: 0 3rem;
         width: 100%;
     }
     .page-header {
@@ -456,9 +455,25 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+
+    .container {
+        width: 350px;
+        padding: 0px 4rem;
+    }
+
+    .details h1 {
+        font-size: 3rem;
+    }
+
     
     /* About Page */
     .about-img {
         margin-left: 70px !important;
     }
+    .about-content {
+        width: 330px;
+        padding: 20px;
+    }
+
 }
+

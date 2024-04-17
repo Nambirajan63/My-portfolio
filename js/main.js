@@ -5,7 +5,7 @@ document.addEventListener('contextmenu',function(event) {
 });
 
 document.addEventListener('keydown',function(event) {
-     if (event.key == "F12" ||  event.ctrlKey && event.shiftKey && event.key == "C") {
+     if (event.key == "F12" ||  event.ctrlKey && event.shiftKey && event.key == "C" || event.ctrlKey && event.key == "U") {
          event.preventDefault();
      }
    
